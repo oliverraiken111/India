@@ -5,7 +5,7 @@ import xml.etree.ElementTree as ET
 import json
 
 # FT India section
-url = "https://www.ft.com/India"
+url = "https://www.ft.com/india"
 headers = {"User-Agent": "Mozilla/5.0"}
 
 response = requests.get(url, headers=headers)
